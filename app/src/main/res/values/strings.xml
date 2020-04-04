@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AR Directory</string>
+    <string name="superheroes">Superheroes</string>
+    <string name="animals">Animals</string>
+    <string name="planets">Planets</string>
+    <string name="cars">Cars</string>
 </resources>
