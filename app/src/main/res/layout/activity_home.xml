@@ -87,7 +87,7 @@
         android:layout_height="wrap_content" >
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cvSuperheros"
+            android:id="@+id/cvCars"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="10dp"
