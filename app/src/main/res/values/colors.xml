@@ -4,4 +4,166 @@
     <color name="colorPrimaryDark">#191970</color>
     <color name="colorAccent">#DC143C</color>
     <color name="royalBlue">#4169e1</color>
+
+
+    <array name="random_color">
+        <item name="red_400" type="color">#e84e40</item>
+        <item name="pink_400" type="color">#ec407a</item>
+        <item name="purple_400" type="color">#ab47bc</item>
+        <item name="deep_purple_400" type="color">#7e57c2</item>
+        <item name="indigo_400" type="color">#5c6bc0</item>
+        <item name="blue_400" type="color">#738ffe</item>
+        <item name="light_blue_400" type="color">#29b6f6</item>
+        <item name="cyan_400" type="color">#26c6da</item>
+        <item name="teal_400" type="color">#26a69a</item>
+        <item name="green_400" type="color">#2baf2b</item>
+        <item name="light_green_400" type="color">#9ccc65</item>
+        <item name="lime_400" type="color">#d4e157</item>
+        <item name="yellow_400" type="color">#ffee58</item>
+        <item name="orange_400" type="color">#ffa726</item>
+        <item name="deep_orange_400" type="color">#ff7043</item>
+        <item name="brown_400" type="color">#8d6e63</item>
+        <item name="grey_400" type="color">#bdbdbd</item>
+        <item name="blue_grey_400" type="color">#78909c</item>
+        <item name="white">#FFFFFF</item>
+        <item name="ivory">#FFFFF0</item>
+        <item name="light_yellow">#FFFFE0</item>
+        <item name="yellow">#FFFF00</item>
+        <item name="snow">#FFFAFA</item>
+        <item name="floral_white">#FFFAF0</item>
+        <item name="lemon_chiffon">#FFFACD</item>
+        <item name="cornsilk">#FFF8DC</item>
+        <item name="seashell">#FFF5EE</item>
+        <item name="lavender_blush">#FFF0F5</item>
+        <item name="papaya_whip">#FFEFD5</item>
+        <item name="blanched_almond">#FFEBCD</item>
+        <item name="misty_rose">#FFE4E1</item>
+        <item name="bisque">#FFE4C4</item>
+        <item name="moccasin">#FFE4B5</item>
+        <item name="navajo_white">#FFDEAD</item>
+        <item name="peach_puff">#FFDAB9</item>
+        <item name="cold">#FFD700</item>
+        <item name="pink">#FFC0CB</item>
+        <item name="light_pink">#FFB6C1</item>
+        <item name="orange">#FFA500</item>
+        <item name="light_salmon">#FFA07A</item>
+        <item name="dark_orange">#FF8C00</item>
+        <item name="coral">#FF7F50</item>
+        <item name="hot_pink">#FF69B4</item>
+        <item name="tomato">#FF6347</item>
+        <item name="orange_red">#FF4500</item>
+        <item name="deep_pink">#FF1493</item>
+        <item name="fuchsia">#FF00FF</item>
+        <item name="magenta">#FF00FF</item>
+        <item name="red">#FF0000</item>
+        <item name="old_lace">#FDF5E6</item>
+        <item name="light_goldenrod_yellow">#FAFAD2</item>
+        <item name="linen">#FAF0E6</item>
+        <item name="antique_white">#FAEBD7</item>
+        <item name="salmon">#FA8072</item>
+        <item name="ghost_white">#F8F8FF</item>
+        <item name="mint_cream">#F5FFFA</item>
+        <item name="white_smoke">#F5F5F5</item>
+        <item name="beige">#F5F5DC</item>
+        <item name="wheat">#F5DEB3</item>
+        <item name="sandy_brown">#F4A460</item>
+        <item name="azure">#F0FFFF</item>
+        <item name="honeydew">#F0FFF0</item>
+        <item name="alice_blue">#F0F8FF</item>
+        <item name="khaki">#F0E68C</item>
+        <item name="light_coral">#F08080</item>
+        <item name="pale_goldenrod">#EEE8AA</item>
+        <item name="violet">#EE82EE</item>
+        <item name="dark_salmon">#E9967A</item>
+        <item name="lavender">#E6E6FA</item>
+        <item name="light_cyan">#E0FFFF</item>
+        <item name="burlyWood">#DEB887</item>
+        <item name="plum">#DDA0DD</item>
+        <item name="gainsboro">#DCDCDC</item>
+        <item name="crimson">#DC143C</item>
+        <item name="pale_violet_red">#DB7093</item>
+        <item name="goldenrod">#DAA520</item>
+        <item name="orchid">#DA70D6</item>
+        <item name="thistle">#D8BFD8</item>
+        <item name="light_grey">#D3D3D3</item>
+        <item name="tan">#D2B48C</item>
+        <item name="chocolate">#D2691E</item>
+        <item name="peru">#CD853F</item>
+        <item name="indian_red">#CD5C5C</item>
+        <item name="medium_violet_red">#C71585</item>
+        <item name="silver">#C0C0C0</item>
+        <item name="dark_khaki">#BDB76B</item>
+        <item name="rosy_brown">#BC8F8F</item>
+        <item name="medium_orchid">#BA55D3</item>
+        <item name="dark_goldenrod">#B8860B</item>
+        <item name="fire_brick">#B22222</item>
+        <item name="powder_blue">#B0E0E6</item>
+        <item name="light_steel_blue">#B0C4DE</item>
+        <item name="pale_turquoise">#AFEEEE</item>
+        <item name="greenYellow">#ADFF2F</item>
+        <item name="light_blue">#ADD8E6</item>
+        <item name="dark_gray">#A9A9A9</item>
+        <item name="brown">#A52A2A</item>
+        <item name="sienna">#A0522D</item>
+        <item name="yellow_green">#9ACD32</item>
+        <item name="dark_orchid">#9932CC</item>
+        <item name="pale_green">#98FB98</item>
+        <item name="dark_violet">#9400D3</item>
+        <item name="mediumPurple">#9370DB</item>
+        <item name="_light_green">#90EE90</item>
+        <item name="dark_sea_green">#8FBC8F</item>
+        <item name="saddle_brown">#8B4513</item>
+        <item name="dark_magenta">#8B008B</item>
+        <item name="dark_red">#8B0000</item>
+        <item name="blue_violet">#8A2BE2</item>
+        <item name="light_sky_blue">#87CEFA</item>
+        <item name="sky_blue">#87CEEB</item>
+        <item name="gray">#808080</item>
+        <item name="olive">#808000</item>
+        <item name="purple">#800080</item>
+        <item name="maroon">#800000</item>
+        <item name="aquamarine">#7FFFD4</item>
+        <item name="chartreuse">#7FFF00</item>
+        <item name="lawn_green">#7CFC00</item>
+        <item name="medium_slate_blue">#7B68EE</item>
+        <item name="light_slate_gray">#778899</item>
+        <item name="slate_gray">#708090</item>
+        <item name="olive_drab">#6B8E23</item>
+        <item name="slate_blue">#6A5ACD</item>
+        <item name="dim_gray">#696969</item>
+        <item name="medium_aquamarine">#66CDAA</item>
+        <item name="cornflower_blue">#6495ED</item>
+        <item name="cadet_blue">#5F9EA0</item>
+        <item name="dark_olive_green">#556B2F</item>
+        <item name="indigo">#4B0082</item>
+        <item name="medium_turquoise">#48D1CC</item>
+        <item name="dark_slate_blue">#483D8B</item>
+        <item name="steel_blue">#4682B4</item>
+        <item name="royal_blue">#4169E1</item>
+        <item name="turquoise">#40E0D0</item>
+        <item name="medium_sea_green">#3CB371</item>
+        <item name="lime_green">#32CD32</item>
+        <item name="dark_slate_gray">#2F4F4F</item>
+        <item name="sea_green">#2E8B57</item>
+        <item name="forest_green">#228B22</item>
+        <item name="light_sea_green">#20B2AA</item>
+        <item name="dodger_blue">#1E90FF</item>
+        <item name="midnight_blue">#191970</item>
+        <item name="aqua">#00FFFF</item>
+        <item name="cyan">#00FFFF</item>
+        <item name="spring_green">#00FF7F</item>
+        <item name="lime">#00FF00</item>
+        <item name="medium_spring_green">#00FA9A</item>
+        <item name="dark_turquoise">#00CED1</item>
+        <item name="deep_sky_blue">#00BFFF</item>
+        <item name="dark_cyan">#008B8B</item>
+        <item name="teal">#008080</item>
+        <item name="green">#008000</item>
+        <item name="dark_green">#006400</item>
+        <item name="blue">#0000FF</item>
+        <item name="medium_blue">#0000CD</item>
+        <item name="dark_blue">#00008B</item>
+        <item name="navy">#000080</item>
+        <item name="black">#000000</item>
+    </array>
 </resources>
