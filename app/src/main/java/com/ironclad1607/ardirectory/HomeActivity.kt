@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity() {
 
         cvCars.setOnClickListener {
             val carIntent = Intent(this,CarActivity::class.java)
-            startActivity(intent)
+            startActivity(carIntent)
         }
 
     }
