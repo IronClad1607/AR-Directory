@@ -48,6 +48,8 @@ class ARActivity : AppCompatActivity() {
         FAB.setOnClickListener {
             addObject(Uri.parse("$modelName.sfb"))
         }
+
+        showFab(false)
     }
 
     private fun removeObject(anchorNode: AnchorNode?) {
@@ -150,6 +152,10 @@ class ARActivity : AppCompatActivity() {
     ) {
         anchorNode = AnchorNode(anchor)
         val transferable = TransformableNode(arFragment.transformationSystem)
+        transferable.scaleController.minScale = 0.02f
+        transferable.scaleController.maxScale = 0.1f
+
+
         transferable.renderable = renderable
         transferable.setParent(anchorNode)
         arFragment.arSceneView.scene.addChild(anchorNode)
