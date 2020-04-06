@@ -1,13 +1,16 @@
 package com.ironclad1607.ardirectory
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_list.view.*
 import java.util.*
 
-class ListAdapter(private val array: Array<String>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class ListAdapter(private val array: Array<String>) :
+    RecyclerView.Adapter<ListAdapter.ViewHolder>() {
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(str: String) {
             with(itemView) {
@@ -15,6 +18,11 @@ class ListAdapter(private val array: Array<String>) : RecyclerView.Adapter<ListA
                 val randomColorCard = colors[Random().nextInt(colors.size)]
                 backColor.setBackgroundColor(randomColorCard)
                 tvName.text = str
+                setOnClickListener {
+                    val arIntent = Intent(context, ARActivity::class.java)
+                    arIntent.putExtra("modelName", str)
+                    startActivity(context, arIntent, null)
+                }
             }
         }
     }
