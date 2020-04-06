@@ -10,10 +10,12 @@
     app:cardCornerRadius="10dp">
     <View
         android:layout_width="match_parent"
+        android:id="@+id/backColor"
         android:layout_height="60dp"
         android:background="@android:color/holo_blue_dark" />
     <TextView
         tool:text="Animal Name"
+        android:id="@+id/tvName"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:layout_gravity="center|left"
