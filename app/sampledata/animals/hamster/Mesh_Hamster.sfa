@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'Tex_Hamster',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/animals/hamster/Mesh_Hamster.obj',
+    name: 'Mesh_Hamster',
+    recenter: 'root',
+    scale: 0.027109000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/animals/hamster\\Tex_Hamster.png',
+      name: 'Tex_Hamster',
+      pipeline_name: 'Tex_Hamster.png',
+    },
+  ],
+  version: '0.54:2',
+}

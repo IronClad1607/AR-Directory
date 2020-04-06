@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Elk_mat',
+      parameters: [
+        {
+          baseColor: 'Elk_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/animals/deer/Elk.obj',
+    name: 'Elk',
+    recenter: 'root',
+    scale: 0.14195099999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/animals/deer\\Elk_BaseColor.png',
+      name: 'Elk_BaseColor',
+      pipeline_name: 'Elk_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}

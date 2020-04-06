@@ -48,3 +48,78 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
 
 }
+
+sceneform.asset('sampledata/animals/bat/Mesh_Bat.obj',
+        'default',
+        'sampledata/animals/bat/Mesh_Bat.sfa',
+        'src/main/assets/Bat')
+
+sceneform.asset('sampledata/animals/bull/BisonPlains.obj',
+        'default',
+        'sampledata/animals/bat/BisonPlains.sfa',
+        'src/main/assets/Bull')
+
+sceneform.asset('sampledata/animals/cat/Mesh_Cat.obj',
+        'default',
+        'sampledata/animals/cat/Mesh_Cat.sfa',
+        'src/main/assets/Cat')
+
+sceneform.asset('sampledata/animals/deer/Elk.obj',
+        'default',
+        'sampledata/animals/deer/Elk.sfa',
+        'src/main/assets/Deer')
+
+sceneform.asset('sampledata/animals/dog/Mesh_Beagle.obj',
+        'default',
+        'sampledata/animals/dog/Mesh_Beagle.sfa',
+        'src/main/assets/Dog')
+
+sceneform.asset('sampledata/animals/eagle/Mesh_Eagle.obj',
+        'default',
+        'sampledata/animals/eagle/Mesh_Eagle.sfa',
+        'src/main/assets/Eagle')
+
+sceneform.asset('sampledata/animals/elephant/Elephant.obj',
+        'default',
+        'sampledata/animals/elephant/Elephant.sfa',
+        'src/main/assets/Elephant')
+
+sceneform.asset('sampledata/animals/fox/Fox.obj',
+        'default',
+        'sampledata/animals/fox/Fox.sfa',
+        'src/main/assets/Fox')
+
+sceneform.asset('sampledata/animals/hamster/Mesh_Hamster.obj',
+        'default',
+        'sampledata/animals/hamster/Mesh_Hamster.sfa',
+        'src/main/assets/Hamster')
+
+sceneform.asset('sampledata/animals/lion/Lion.obj',
+        'default',
+        'sampledata/animals/lion/Lion.sfa',
+        'src/main/assets/Lion')
+
+sceneform.asset('sampledata/animals/mouse/Woodrats.obj',
+        'default',
+        'sampledata/animals/mouse/Woodrats.sfa',
+        'src/main/assets/Mouse')
+
+sceneform.asset('sampledata/animals/rhino/rhino.obj',
+        'default',
+        'sampledata/animals/rhino/rhino.sfa',
+        'src/main/assets/Rhino')
+
+sceneform.asset('sampledata/animals/shark/shark.obj',
+        'default',
+        'sampledata/animals/shark/shark.sfa',
+        'src/main/assets/Shark')
+
+sceneform.asset('sampledata/animals/tiger/Mesh_BengalTiger.obj',
+        'default',
+        'sampledata/animals/tiger/Mesh_BengalTiger.sfa',
+        'src/main/assets/Tiger')
+
+sceneform.asset('sampledata/animals/wolf/Wolves.obj',
+        'default',
+        'sampledata/animals/wolf/Wolves.sfa',
+        'src/main/assets/Wolf')
