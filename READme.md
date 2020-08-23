@@ -1,1 +1,1 @@
-"# AR Directory" 
+# AR Directory
